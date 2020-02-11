@@ -1,0 +1,26 @@
+{% extends 'base.html'%}
+
+{% load static %}
+
+{% block content%}
+
+<div class="card mb-3">
+    <h3 class="card-header">About Me</h3>
+    <div class="card-body">
+      <h5 class="card-title">Mr. ALTAMASH KACCHI</h5>
+      <h6 class="card-subtitle text-muted">Python Django Consultant and Expert</h6>
+    </div>
+    <img style="height: 200px; width: 100%; display: block;" src="{% static 'images/profile.jpg'%}" alt="Card image">
+    <div class="card-body">
+      <p class="card-text">PyDJblog is a hub for connecting Python enthusiasts,<br>
+        learners, and practitioners to content written by fellow Python bloggers.</p>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">Altamash Kaccchi</li>
+      <li class="list-group-item">Pune Maharashtra</li>
+      <li class="list-group-item">Pune University</li>
+    </ul>
+
+  </div>
+  
+{% endblock%}
